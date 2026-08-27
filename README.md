@@ -105,8 +105,9 @@ node ../hd-04/scripts/probe.mjs /hd-project15/ /hd-project15/energy.html …
 ## 개발
 
 ```sh
-node test/logic.test.js   # 날짜·법령·에너지 파싱 검사 (61개)
-python3 build.py          # 페이지 일곱 개를 다시 굽는다
+node test/logic.test.js    # 날짜·법령·에너지 파싱 검사 (61개)
+node test/smoke.browser.js # 일곱 장을 브라우저에 실제로 띄운다 (25개)
+python3 build.py           # 페이지 일곱 개를 다시 굽는다
 ```
 
 둘 다 CI(`.github/workflows/test.yml`)에서 자동으로 돕니다. `build.py` 는 다시 구운
