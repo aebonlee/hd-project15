@@ -47,7 +47,7 @@ HEAD = """<!doctype html>
 <title>{title} | {site}</title>
 <meta name="description" content="{desc}">
 <link rel="stylesheet" href="css/style.css">
-<!-- === HD:META:BEGIN (scripts 로 다시 굽습니다) === -->
+<!-- === HD:META:BEGIN (자동 생성 — scripts 로 다시 굽습니다) === -->
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
