@@ -109,6 +109,12 @@ node test/logic.test.js   # 날짜·법령·에너지 파싱 검사 (61개)
 python3 build.py          # 페이지 일곱 개를 다시 굽는다
 ```
 
+둘 다 CI(`.github/workflows/test.yml`)에서 자동으로 돕니다. `build.py` 는 다시 구운
+결과가 커밋된 HTML 과 같은지까지 봅니다 — 페이지를 손으로 고치면 여기서 걸립니다.
+
+왜 이렇게 만들었는지는 [`docs/개발일지.md`](docs/개발일지.md), 작업 규칙은
+[`CLAUDE.md`](CLAUDE.md) 에 있습니다.
+
 **페이지를 손으로 고치지 마세요.** `build.py` 가 덮어씁니다.
 본문은 `build.py` 의 `PAGES` 에, 머리말·메뉴는 `HEAD`/`MENU` 에 있습니다.
 
