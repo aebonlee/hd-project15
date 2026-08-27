@@ -133,6 +133,7 @@ localStorage 다. 서버가 없다. 다른 PC 로 옮기려면 **내보내기(JS
 
 - 빌드는 `build.py` 가 페이지 일곱 장을 굽는다 (GitHub Pages 배포)
 - `test/logic.test.js` 61개 — 날짜·법령·에너지 파싱
+- `test/smoke.browser.js` 25개 — 브라우저에 일곱 장을 실제로 띄운다
 - 라이브러리 동봉(`lib/`) — 폐쇄망 전제
 - `README.md`, `docs/개발일지.md`
 
